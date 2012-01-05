@@ -70,7 +70,7 @@
 					<br>
 					found on <a href="http://getonboard.lincoln.ne.gov">getonboard.lincoln.ne.gov</a>, intended to work well
 					<br>
-					on the dumbest of dumbphones. Static images and HTML 4.01.T
+					on the dumbest of dumbphones. Static images and HTML 4.01.
 					<br>
 					<br>
 					To check a different route, add <i>?route=X</i> to the URL, where

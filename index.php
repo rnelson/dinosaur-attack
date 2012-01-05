@@ -53,12 +53,22 @@
 	}
 	else {
 ?>
-			<p>Sorry! No buses on route <?php echo $route; ?> are currently running.</p>
+			<p>
+				Sorry! No buses on route <?php echo $route; ?> are currently running.
+			</p>
+			<p>
+				If your bus should be running, it's possible that the server is down. Let 
+				@<a href="http://twitter.com/rossnelson">rossnelson</a> know and he'll try to 
+				fix it when he gets a chance.
+			</p>
 <?php
 	}
 ?>
 			<p>
 				<font size="-2">Where the #@&*'s My Bus?, a <a href="http://tractorfeed.org">Tractor Feed</a> project</font>
+			</p>
+			<p>
+				<font size="-2">Hacked together by @<a href="http://twitter.com/rossnelson">rossnelson</a> out of necessity.</font>
 			</p>
 		</center>
 	</body>

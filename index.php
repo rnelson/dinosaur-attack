@@ -65,8 +65,22 @@
 	}
 ?>
 			<p>
-				<font size="-2">Where the #@&*'s My Bus?, a <a href="http://tractorfeed.org">Tractor Feed</a> project</font>
+				<font size="-1">
+					This is an incredibly simplified version of the tracker
+					<br>
+					found on <a href="http://getonboard.lincoln.ne.gov">getonboard.lincoln.ne.gov</a>, intended to work well
+					<br>
+					on the dumbest of dumbphones. Static images and HTML 4.01.T
+					<br>
+					<br>
+					To check a different route, add <i>?route=X</i> to the URL, where
+					<i>X</i> is the route number.
+				</font>
 				<br>
+				<br>
+                                <font size="-2">Where the #@&*'s My Bus?, a <a href="http://tractorfeed.org">Tractor Feed</a> project</font>
+                                <br>
+
 				<font size="-2">Written by @<a href="http://twitter.com/rossnelson">rossnelson</a> and @<a href="http://twitter.com/natebenes">natebenes</a>.</font>
 			</p>
 		</center>

@@ -66,8 +66,7 @@
 ?>
 			<p>
 				<font size="-2">Where the #@&*'s My Bus?, a <a href="http://tractorfeed.org">Tractor Feed</a> project</font>
-			</p>
-			<p>
+				<br>
 				<font size="-2">Hacked together by @<a href="http://twitter.com/rossnelson">rossnelson</a> out of necessity.</font>
 			</p>
 		</center>

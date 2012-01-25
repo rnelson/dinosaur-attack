@@ -75,6 +75,10 @@
 					<br>
 					To check a different route, add <i>?route=X</i> to the URL, where
 					<i>X</i> is the route number.
+					<br><br>
+					Note: This does not yet change the bus image to match the bus
+					<br>
+					direction. Coming "soon."
 				</font>
 				<br>
 				<br>

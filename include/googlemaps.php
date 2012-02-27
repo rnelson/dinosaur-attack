@@ -10,22 +10,22 @@ function buildStaticMapUrl($lat, $lon, $size='200x200', $zoom=17) {
 	$location = $lat . ',' . $lon;
 	
 	// The point to have as the center of our map
-	$url .= 'center=' . $location . '&';
+	$url .= 'center=' . $location . '&amp;';
 	
 	// Zoom level
-	$url .= 'zoom=' . $zoom . '&';
+	$url .= 'zoom=' . $zoom . '&amp;';
 	
 	// The size of the map
-	$url .= 'size=' . $size . '&';
+	$url .= 'size=' . $size . '&amp;';
 	
 	// Use JPEG since everything can read it
-	$url .= 'format=jpg&';
+	$url .= 'format=jpg&amp;';
 	
 	// Roads are what we probably care about
-	$url .= 'maptype=roadmap&';
+	$url .= 'maptype=roadmap&amp;';
 	
 	// Add a marker for the bus
-	$url .= 'markers=icon:' . urlencode(GMAP_CUSTOM_MARKER_URL) . '%7C' . $location . '&';
+	$url .= 'markers=icon:' . urlencode(GMAP_CUSTOM_MARKER_URL) . '%7C' . $location . '&amp;';
 	
 	// We're not acquiring the user's location for the map, so this is false
 	$url .= 'sensor=false';

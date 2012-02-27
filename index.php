@@ -1,4 +1,5 @@
 <?php
+	header('Content-Type: text/html;charset=iso-8859-1');
 	
 	require_once('include/googlemaps.php');
 	require_once('include/util.php');
@@ -32,6 +33,7 @@
 <html>
 	<head>
 		<title><?php echo $pageTitle; ?></title>
+		<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
 	</head>
 	<body>
 		<center>
@@ -105,7 +107,7 @@
                                 <br>
 				<font size="-2">Written by @<a href="http://twitter.com/rossnelson">rossnelson</a> and @<a href="http://twitter.com/natebenes">natebenes</a>.</font>
 				<br>
-				<font size="-2"><a href="https://github.com/rnelson/dinosaur-attack">Fork me on GitHub!</a>
+				<font size="-2"><a href="https://github.com/rnelson/dinosaur-attack">Fork me on GitHub!</a></font>
 			</p>
 		</center>
 	</body>

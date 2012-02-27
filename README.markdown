@@ -16,4 +16,5 @@ Some planned improvements:
 [tftwitter]: http://twitter.com/tractorfeedorg
 [rnelsongh]: http://github.com/rnelson
 [poundlnk]: http://twitter.com/search/%23LNK
+[buspretendamazing]: http://bus.pretendamazing.org
 

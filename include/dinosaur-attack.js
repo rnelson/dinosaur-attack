@@ -31,7 +31,8 @@ function load_static_file(uri, response) {
 }
 
 var OTVIAHOST = "getonboard.lincoln.ne.gov";
-var OTVIAPATH = "/packet/json/vehicle?routes=203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219";
+//var OTVIAPATH = "/packet/json/vehicle?routes=203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219";
+var OTVIAPATH = "/packet/json/vehicle?routes=366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383";
 
 var gob_client = http.createClient(80, OTVIAHOST);
 var last_req = Math.round((new Date()).getTime());

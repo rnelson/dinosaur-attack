@@ -66,26 +66,46 @@
 ?>
 			<p>
 				<font size="-1">
+					<!-- #LNK-specific list; will be pulled by script later and thus can work in other supported cities -->
+                                        <a href="/?route=24">Holdredge</a> | <a href="/?route=40">Heart Hospital</a> | <a href="/?route=41">Havelock</a>
+                                        <br>
+                                        <a href="/?route=42">Bethany</a> | <a href="/?route=43">Normal</a> | <a href="/?route=44">O St. - SCC</a>
+                                        <br>
+                                        <a href="/?route=45">Arapahoe</a> | <a href="/?route=46">Arnold Heights</a> | <a href="/?route=47">Belmont</a>
+                                        <br>
+                                        <a href="/?route=48">Salt Valley</a> | <a href="/?route=49">University Place</a> | <a href="/?route=50">College View</a>
+                                        <br>
+                                        <a href="/?route=51">West A</a> | <a href="/?route=52">Gaslight</a> | <a href="/?route=53">SouthPointe</a>
+                                        <br>
+                                        <a href="/?route=54">Vet's Hospital</a> | <a href="/?route=55">Star Shuttle</a>
+					<br>
+					<br>
+					
 					This is an incredibly simplified version of the tracker
 					<br>
-					found on <a href="http://getonboard.lincoln.ne.gov">getonboard.lincoln.ne.gov</a>, intended to work well
+					found on <a href="http://getonboard.lincoln.ne.gov">getonboard.lincoln.ne.gov</a>, intended to work
 					<br>
-					on the dumbest of dumbphones. Static images and HTML 4.01.
+					well on the dumbest of dumbphones. Static images
+					<br>
+					and HTML 4.01.
 					<br>
 					<br>
-					To check a different route, add <i>?route=X</i> to the URL, where
-					<i>X</i> is the route number.
-					<br><br>
-					Note: This does not yet change the bus image to match the bus
+					Upcoming features:
 					<br>
-					direction. Coming "soon."
+					<b>1.</b> Bus icon changing direction
+					<br>&nbsp;&nbsp;to match bus direction
+					<br>
+					<b>2.</b> Map zoom
+					<br>
+					<b>3.</b> Less crashing
 				</font>
 				<br>
 				<br>
                                 <font size="-2">Where the #@&*'s My Bus?, a <a href="http://tractorfeed.org">Tractor Feed</a> project</font>
                                 <br>
-
 				<font size="-2">Written by @<a href="http://twitter.com/rossnelson">rossnelson</a> and @<a href="http://twitter.com/natebenes">natebenes</a>.</font>
+				<br>
+				<font size="-2"><a href="https://github.com/rnelson/dinosaur-attack">Fork me on GitHub!</a>
 			</p>
 		</center>
 	</body>

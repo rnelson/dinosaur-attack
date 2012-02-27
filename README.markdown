@@ -13,7 +13,7 @@ Some planned improvements:
 + Dynamic list of known routes; there is currently a static list of supported routes on the page, but we don't want this to be [#LNK][poundlnk]-specific.
 
 [tf]: https://github.com/tractorfeed
-[tftwitter]: http://twitter.com/tractorfeed
+[tftwitter]: http://twitter.com/tractorfeedorg
 [rnelsongh]: http://github.com/rnelson
 [poundlnk]: http://twitter.com/search/%23LNK
 

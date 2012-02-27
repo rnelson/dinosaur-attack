@@ -41,6 +41,7 @@ var latest_json = '{}';
 function get_buses() {
 	var request = gob_client.request("GET", OTVIAPATH + "&lastVehicleHttpRequestTime="+last_req.toString(), {"host": OTVIAHOST});
 	last_req = Math.round((new Date()).getTime());
+	last_req = 1;
 	request.addListener("response", function(response) {
 		var body = "";
 		response.addListener("data", function(data) {
@@ -59,7 +60,8 @@ function get_buses() {
 	request.end();
 }
 
-setInterval(get_buses, 15000);
+get_buses();
+setInterval(get_buses, 20000);
 var listener = gob_emitter.addListener("buses", function(buses) {
 		//sys.puts(JSON.stringify(buses));
 		latest_json = JSON.stringify(buses);

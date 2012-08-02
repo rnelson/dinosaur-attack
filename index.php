@@ -98,8 +98,6 @@
 					<br>&nbsp;&nbsp;to match bus direction
 					<br>
 					<b>2.</b> Map zoom
-					<br>
-					<b>3.</b> Less crashing
 				</font>
 				<br>
 				<br>

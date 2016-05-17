@@ -4,8 +4,6 @@ About
 -----
 This is a temporary, quick hack version of WTFMB.
 
-A newer, shinier, better, less crashy version with more features is slowly being worked on. It will be in a [TractorFeed][tf] repo and we'll publicly announce it on [our twitter][tftwitter]. Until that point, [the live copy][buspretendamazing] is pulled directly from this repo on [my GitHub account][rnelsongh].
-
 Future
 ------
 + Complete rewrite in Ruby, no more crashing node.js server (poor programming on our part; we really just want to get away from running a server for it)
@@ -22,7 +20,6 @@ This project started as an entry in the 2011 [Node Knockout][nko]. The event fel
 [tftwitter]: http://twitter.com/tractorfeedorg
 [rnelsongh]: http://github.com/rnelson
 [poundlnk]: http://twitter.com/search/%23LNK
-[buspretendamazing]: http://bus.pretendamazing.org
 [nko]: http://nodeknockout.com/
 [nategh]: http://github.com/natebenes
 
